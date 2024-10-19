@@ -80,7 +80,7 @@ function generateQuiz(questionsData) {
     });
 }
 
-fetch('../test/questions.json')
+fetch('test/questions.json')
     .then(response => response.json())
     .then(data => {
         generateQuiz(data);
