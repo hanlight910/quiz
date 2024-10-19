@@ -80,8 +80,7 @@ function generateQuiz(questionsData) {
     });
 }
 
-data = {
-	"questionsData": [
+data = [
 		{
 			"question": "What is the capital of France?",
 			"options": [
@@ -127,8 +126,7 @@ data = {
 				"Sun"
 			]
 		}
-	]
-}
+]
 
 generateQuiz(data);
 
