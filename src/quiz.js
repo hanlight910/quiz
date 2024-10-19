@@ -40,6 +40,7 @@ function generateQuiz(questionsData) {
 
         const form = document.createElement('form');
 
+        // Corrected quizOptions section
         const quizOptions = document.createElement('div');
         quizOptions.className = 'quiz-options';
 
@@ -130,12 +131,3 @@ data = [
 
 generateQuiz(data);
 
-// fetch('/quiz/test/questions.json')
-//     .then(response => response.json())
-//     .then(data => {
-//         generateQuiz(data);
-//     })
-//     .catch(error => {
-// 		alert("Error laoding the quiz data:", error);
-//         console.error('Error loading the quiz data:', error);
-//     });
